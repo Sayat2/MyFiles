@@ -16,10 +16,12 @@ if(isset($_POST['submit'])){
 
    if(mysqli_num_rows($result) > 0){  
 
-      $row = mysqli_fetch_array($result); 
+      $row = mysqli_fetch_array($result);  
       $_SESSION['admin_name'] = $row['name'];
       // header('location:admin_page.php');
-      header('location:index.php');
+      // header('location:index.php');
+
+      include 'index.php';
 
    }else{
       $error[] = '❎ incorrect email or password! ❎';
