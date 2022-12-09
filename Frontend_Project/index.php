@@ -139,7 +139,7 @@ session_start();
                 <a href="rating.php">Рейтинг фильмов</a> |
                 <a href="contact.php">Контакты</a>
             </p>
-            <p>wh-db.com 2015</p>
+            <p>ABS SDU Sdudents</p>
 
         </div>
     </div>

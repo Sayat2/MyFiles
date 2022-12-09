@@ -22,11 +22,11 @@
             <div class="menubar">
 
                 <ul class="menu">
-                    <li><a href="index.html">Главная</a></li>
-                    <li  class="selected"><a href="films.html">Фильмы</a></li>
+                    <li><a href="index.php">Главная</a></li>
+                    <li  class="selected"><a href="films.php">Фильмы</a></li>
                     <li><a href="#">Сериалы</a></li>
-                    <li><a href="rating.html">Рейтинг фильмов</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="rating.php">Рейтинг фильмов</a></li>
+                    <li><a href="contact.php">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -107,13 +107,13 @@
 
         <div class="footer">
             <p>
-                <a href="index.html">Главная</a> | 
-                <a href="films.html">Фильмы</a> | 
+                <a href="index.php">Главная</a> | 
+                <a href="films.php">Фильмы</a> | 
                 <a href="#">Сериалы</a> | 
-                <a href="rating.html">Рейтинг фильмов</a> |
-                <a href="contact.html">Контакты</a>
+                <a href="rating.php">Рейтинг фильмов</a> |
+                <a href="contact.php">Контакты</a>
             </p>
-            <p>wh-db.com 2015</p>
+            <p>ABS SDU Sdudents</p>
 
         </div>
     </div>
