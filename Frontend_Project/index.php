@@ -1,3 +1,9 @@
+<?php
+@include 'config.php';
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,11 +28,11 @@
             <div class="menubar">
 
                 <ul class="menu">
-                    <li class="selected"><a href="index.html">Главная</a></li>
-                    <li><a href="films.html">Фильмы</a></li>
+                    <li class="selected"><a href="index.php">Главная</a></li>
+                    <li><a href="films.php">Фильмы</a></li>
                     <li><a href="#">Сериалы</a></li>
-                    <li><a href="rating.html">Рейтинг фильмов</a></li>
-                    <li><a href="contact.html">Контакты</a></li> 
+                    <li><a href="rating.php">Рейтинг фильмов</a></li>
+                    <li><a href="contact.php">Контакты</a></li> 
                 </ul>
             </div>
         </div>
@@ -128,10 +134,10 @@
         <div class="footer">
             <p>
                 <a href="#">Главная</a> | 
-                <a href="films.html">Фильмы</a> | 
+                <a href="films.php">Фильмы</a> | 
                 <a href="#">Сериалы</a> | 
-                <a href="rating.html">Рейтинг фильмов</a> |
-                <a href="contact.html">Контакты</a>
+                <a href="rating.php">Рейтинг фильмов</a> |
+                <a href="contact.php">Контакты</a>
             </p>
             <p>wh-db.com 2015</p>
 
